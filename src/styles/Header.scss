@@ -1,0 +1,46 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  z-index: 9;
+  transition: background-color 175ms ease-in-out;
+}
+
+.HeaderBackground {
+  background-color: rgba(6, 99, 120, 0.95);
+}
+
+.Header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+
+.Header ul li {
+  color: #FFF;
+  transition: 175ms ease-in-out;
+}
+
+.Header ul li a {
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.Header ul li:hover {
+  color: #97efff;
+}
+
+.cookiesInfo {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: .7rem;
+  text-transform: uppercase;
+}

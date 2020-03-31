@@ -1,0 +1,136 @@
+.Summary {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  color: #FFF;
+  margin-bottom: 100px;
+}
+
+.Faculty {
+  margin: 10px 0px;
+  width: 100%;
+  border: 10px solid #FFF;
+}
+
+.FacultyInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-left: 0px;
+  padding: 5px 0px;
+  color: #402e69;
+  background-color: #FFF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.FacultyInfo a {
+  color: #402e69;
+}
+
+.FacultyInfo a {
+  -webkit-transition: color 175ms ease-in-out;
+  transition: color 175ms ease-in-out;
+}
+
+.FacultyInfo a:hover {
+  color: #00a11b;
+}
+
+.FacultyInfo > * {
+  padding: 5px;
+}
+
+.FacultyInfo .ShortcutName {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.FacultyInfo .FullName {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+.Subjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Subject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SubjectName {
+  padding: 10px;
+}
+
+.Subject:nth-of-type(even) {
+  background-color: rgba(41, 18, 94, 0.7);
+}
+
+.Subject:nth-of-type(odd) {
+  background-color: rgba(17, 0, 58, 0.7);
+}
+
+.SubjectName {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+.points {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding: 5px 7px;
+  max-width: 80px;
+  font-size: .9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: color 175ms ease-in-out;
+  transition: color 175ms ease-in-out;
+}
+
+.yourPoints {
+  font-size: 1.2em;
+}
+
+.matricExam {
+  font-size: .75rem;
+  margin-left: 10px;
+  padding: 2px 4px;
+  background-color: rgba(0, 55, 158, 0.7);
+}
+/*# sourceMappingURL=Summary.css.map */

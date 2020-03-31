@@ -1,0 +1,104 @@
+$bgBlue: #066378;
+$maxWidth: 1200px;
+
+.Summary {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: $maxWidth;
+  width: 100%;
+  color: #FFF;
+  margin-bottom: 100px;
+}
+
+.Faculty {
+  margin: 10px 0px;
+  width: 100%;
+  border: 10px solid #FFF;
+}
+
+.FacultyInfo {
+  display: flex;
+  flex-direction: row;
+  border-left: 0px;
+  padding: 5px 0px;
+  color: #402e69;
+  background-color: #FFF;
+  align-items: center;
+}
+
+.FacultyInfo a {
+  color: #402e69;
+}
+
+.FacultyInfo a {
+  transition: color 175ms ease-in-out;
+}
+
+.FacultyInfo a:hover {
+  color: #00a11b;
+}
+
+.FacultyInfo > * {
+  padding: 5px;
+}
+
+.FacultyInfo .ShortcutName {
+  flex: 2;
+}
+
+.FacultyInfo .FullName {
+  flex: 8;
+}
+
+.Subjects {
+  display: flex;
+  flex-direction: column;
+}
+
+.Subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SubjectName {
+  padding: 10px;
+}
+
+.Subject:nth-of-type(even) {
+  background-color: rgba(41, 18, 94, 0.7);
+}
+
+.Subject:nth-of-type(odd) {
+  background-color: rgba(17, 0, 58, 0.7);
+}
+
+
+
+.SubjectName {
+  flex: 10;
+}
+
+.points {
+  flex: 1;
+  text-align: center;
+  padding: 5px 7px;
+  max-width: 80px;
+  font-size: .9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 175ms ease-in-out;
+}
+
+.yourPoints {
+  font-size: 1.2em;
+}
+
+.matricExam {
+  font-size: .75rem;
+  margin-left: 10px;
+  padding: 2px 4px;
+  background-color: rgba(0, 55, 158, 0.7);
+}

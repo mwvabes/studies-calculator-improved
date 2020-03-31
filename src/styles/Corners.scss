@@ -1,0 +1,61 @@
+
+$thickness: 7px;
+$length: 40px;
+
+$bgColor: #e2e2e2;
+
+.CornerTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $length;
+  height: $length;
+}
+
+.CornerTopRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: $length;
+  height: $length;
+}
+
+.CornerBottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: $length;
+  height: $length;
+}
+
+.CornerBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: $length;
+  height: $length;
+}
+
+.CornerTopLeft::before, .CornerTopRight::before, .CornerBottomLeft::before, .CornerBottomRight::before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: $thickness;
+  background-color: $bgColor;
+}
+
+.CornerBottomLeft::before, .CornerBottomRight::before {
+  bottom: 0;
+}
+
+.CornerTopLeft::after, .CornerTopRight::after, .CornerBottomLeft::after, .CornerBottomRight::after {
+  content:'';
+  position: absolute;
+  width: $thickness;
+  height: 100%;
+  background-color: $bgColor;
+}
+
+.CornerTopRight::after, .CornerBottomRight::after {
+  right: 0;
+}

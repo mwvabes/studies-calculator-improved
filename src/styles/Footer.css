@@ -1,0 +1,32 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: .9rem;
+  padding: 40px;
+  color: #00d0ff;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+footer a {
+  color: #FFF;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #b3f1ff;
+}
+/*# sourceMappingURL=Footer.css.map */

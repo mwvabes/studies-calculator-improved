@@ -1,0 +1,58 @@
+.Instruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  color: #066378;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+
+.Instruction h2 {
+  color: #29125e;
+}
+
+.InstructionInfo {
+  border-left: 6px double #29125e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.important {
+  color: #b90000;
+}
+
+.lastUpdated {
+  padding: 2px 4px;
+  background-color: #f1fbff;
+  border: 1px solid #29125e;
+  font-weight: bold;
+  font-size: .9rem;
+  letter-spacing: 2px;
+}
+
+.pointsInstruction {
+  padding: 2px 4px;
+  background-color: #29125e;
+}
+/*# sourceMappingURL=Instruction.css.map */

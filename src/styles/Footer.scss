@@ -1,0 +1,22 @@
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: .9rem;
+  padding: 40px;
+  color: #00d0ff;
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+}
+
+footer a {
+  color: #FFF;
+  transition: color 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: #b3f1ff;
+}

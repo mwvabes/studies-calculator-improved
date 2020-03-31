@@ -1,0 +1,56 @@
+.CornerTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.CornerTopRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.CornerBottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.CornerBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.CornerTopLeft::before, .CornerTopRight::before, .CornerBottomLeft::before, .CornerBottomRight::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: #e2e2e2;
+}
+
+.CornerBottomLeft::before, .CornerBottomRight::before {
+  bottom: 0;
+}
+
+.CornerTopLeft::after, .CornerTopRight::after, .CornerBottomLeft::after, .CornerBottomRight::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 100%;
+  background-color: #e2e2e2;
+}
+
+.CornerTopRight::after, .CornerBottomRight::after {
+  right: 0;
+}
+/*# sourceMappingURL=Corners.css.map */

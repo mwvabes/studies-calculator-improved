@@ -1,0 +1,2263 @@
+[
+  {
+    "shortcutName": "WBISIA",
+    "fullName": "WYDZIAŁ BUDOWNICTWA, INŻYNIERII ŚRODOWISKA I ARCHITEKTURY",
+    "facultyURL": "https://wbisia.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Architektura",
+        "matricExam": true,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 168,
+          "p16_17": 140,
+          "p17_18": 210,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 201,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Budownictwo",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 188,
+          "p16_17": 153,
+          "p17_18": 203,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_PHY",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Ochrona Środowiska",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 120,
+          "p16_17": 107,
+          "p17_18": 174,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Inżynieria Środowiska",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 119,
+          "p16_17": 128,
+          "p17_18": 106,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Biogospodarka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WBMIL",
+    "fullName": "WYDZIAŁ BUDOWY MASZYN I LOTNICTWA",
+    "facultyURL": "https://wbmil.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Inżynieria materiałowa",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 134,
+          "p16_17": 319.5,
+          "p17_18": 152,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 201,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Lotnictwo i kosmonautyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 272,
+          "p16_17": 280,
+          "p17_18": 344,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Mechanika i budowa maszyn",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 197,
+          "p16_17": 175,
+          "p17_18": 192,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Mechatronika",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 198,
+          "p16_17": 155,
+          "p17_18": 231,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Transport",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 103,
+          "p16_17": 120,
+          "p17_18": 162,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Zarządzanie i inżynieria produkcji",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 168,
+          "p16_17": 140,
+          "p17_18": 210,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WCH",
+    "fullName": "WYDZIAŁ CHEMICZNY",
+    "facultyURL": "https://wch.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Biotechnologia",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 114,
+          "p16_17": 120,
+          "p17_18": 159,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Inżynieria chemiczna i procesowa",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 101,
+          "p16_17": 116,
+          "p17_18": 178,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Technologia chemiczna",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 109,
+          "p16_17": 108,
+          "p17_18": 130,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WEII",
+    "fullName": "WYDZIAŁ ELEKTROTECHNIKI I INFORMATYKI",
+    "facultyURL": "https://wch.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Automatyka i robotyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 244,
+          "p16_17": 244,
+          "p17_18": 311,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Elektronika i telekomunikacja",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 131,
+          "p16_17": 121,
+          "p17_18": 184,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Elektrotechnika",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 123,
+          "p16_17": 125,
+          "p17_18": 212,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Energetyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 133,
+          "p16_17": 112,
+          "p17_18": 193,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Informatyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 277,
+          "p16_17": 288,
+          "p17_18": 356,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WMIFS",
+    "fullName": "WYDZIAŁ MATEMATYKI I FIZYKI STOSOWANEJ",
+    "facultyURL": "https://wch.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Inżynieria medyczna",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 90,
+          "p16_17": 152,
+          "p17_18": 120,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Matematyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 148,
+          "p16_17": 148,
+          "p17_18": 134,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WMT",
+    "fullName": "WYDZIAŁ MECHANICZNO-TECHNOLOGICZNY",
+    "facultyURL": "https://wch.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Mechanika i budowa maszyn",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 197,
+          "p16_17": 175,
+          "p17_18": 192,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Zarządzanie i inżynieria produkcji #2",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 168,
+          "p16_17": 140,
+          "p17_18": 210,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "shortcutName": "WZ",
+    "fullName": "WYDZIAŁ ZARZĄDZANIA",
+    "facultyURL": "https://wch.w.prz.edu.pl",
+    "subjects": [
+      {
+        "subjectName": "Bezpieczeństwo wewnętrzne",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 125,
+          "p16_17": 97,
+          "p17_18": 178.5,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Finanse i rachunkowość",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 197,
+          "p16_17": 207,
+          "p17_18": 326,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Logistyka",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 163,
+          "p16_17": 186,
+          "p17_18": 321,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Sport",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Zarządzanie",
+        "matricExam": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 98,
+          "p16_17": 50,
+          "p17_18": 244,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

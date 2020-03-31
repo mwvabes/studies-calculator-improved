@@ -1,0 +1,199 @@
+$bgBlue: #066378;
+
+$maxWidth: 1200px;
+
+.InputMarksGeneralWrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputMarksCardBorders {
+  width: $maxWidth;
+  padding: 10px; 
+  position: relative;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputMarksCard {
+  background-color: rgb(238, 242, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 100%;
+  padding: 10px 20px;
+  width: calc(100% - 20px);
+  color: #066378;
+  box-shadow: 0 0 15px rgba(0, 60, 78, 0.767);
+}
+
+.InputMarksCard h1 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.InputBasicSection, .InputExtendedSection, .InputQuickInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgba(238, 242, 255, 0.7);
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.InputQuickInfo {
+  border-left: 6px double #29125e;
+  flex: 5;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.InputQuickInfo .InputQuickInfoContent {
+  padding: 10px;
+  font-size: .9rem;
+}
+
+.InputQuickInfo .InputQuickInfoContent span {
+  background-color: #29125e;
+  padding: 2px 4px;
+  margin: 2px;
+}
+
+.InputQuickInfo .InputHeadingSection h2 {
+  border-right: 0px;
+}
+
+.InputHeadingSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.InputHeadingSection h2 {
+  border-right: 1px solid #6b6b6b;
+  margin-left: 10px;
+  padding-right: 5px;
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.InputHeadingSection h2, .InputHeadingSection h3 {
+  margin-left: 0px 10px;
+}
+
+.InputBasicSection {
+  border-left: 6px double #00a11b;
+  flex: 7;
+  //box-shadow: inset 0px 0px 5px #00a11b;
+}
+
+.InputExtendedSection {
+  border-left: 6px double $bgBlue;
+  //box-shadow: inset 0px 0px 5px #28125e;
+}
+
+.InputBasicSection h2 {
+  color: #00a11b;
+}
+
+.InputsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.SingleInput {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  flex-grow: 0;
+  width: 100%;
+}
+
+.LevelInfo {
+  padding: 1px 4px;
+  background-color: #29125e;
+  color: #FFF;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.SingleInput label {
+  font-style: italic;
+  color: #6b6b6b;
+  font-size: .8rem;
+}
+
+.SingleInput input {
+  padding: 2px;
+  color: #1f5e12;
+  font-size: .9rem;
+  font-weight: bold;
+  border: 0px;
+  border-bottom: 1px solid #29125e;
+  caret-color: #29125e;
+}
+
+.Compatibility {
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: .8rem;
+}
+
+.Compatibility a {
+  text-decoration: underline;
+  transition: color 175ms ease-in-out;
+  font-size: 1.03em;
+}
+
+.Compatibility a:hover {
+  color: #FFF;
+}
+
+.AnchorGoToMarks {
+  opacity: 1;
+  position: absolute;
+  bottom: -40px;
+  padding: 10px 30px;
+  background-color: rgba(255,255,255,0.95);
+  box-shadow: 0px 0px 5px 0px #2c6b26;
+  border: 4px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: transform 175ms ease-in-out, border 175ms ease-in-out;
+}
+
+.AnchorGoToMarks > input {
+  border: 0px;
+  color: #00a11b;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.AnchorGoToMarks:hover {
+  transform: scale(1.1);
+  border: 4px solid #00a11b;
+}
+

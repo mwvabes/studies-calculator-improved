@@ -1,0 +1,46 @@
+$bgBlue: #066378;
+$maxWidth: 1200px;
+
+.Instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: $maxWidth;
+  width: 100%;
+  color: $bgBlue;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+
+.Instruction h2 {
+  color: #29125e;
+}
+
+.InstructionInfo {
+  border-left: 6px double #29125e;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.important {
+  color: #b90000;
+}
+
+.lastUpdated {
+  padding: 2px 4px;
+  background-color: #f1fbff;
+  border: 1px solid #29125e;
+  font-weight: bold;
+  font-size: .9rem;
+  letter-spacing: 2px;
+}
+
+.pointsInstruction {
+  padding: 2px 4px;
+  background-color: #29125e;
+}
