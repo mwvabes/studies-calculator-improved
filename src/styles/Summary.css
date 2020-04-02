@@ -137,8 +137,9 @@
 .newCourse {
   background-color: #a50000;
   color: #FFF;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: .8rem;
-  padding: 5px;
+  padding: 2px 4px;
+  margin: 0px 5px;
 }
 /*# sourceMappingURL=Summary.css.map */
