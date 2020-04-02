@@ -7,6 +7,8 @@
       {
         "subjectName": "Architektura",
         "matricExam": true,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 168,
@@ -84,13 +86,15 @@
         }
       },
       {
-        "subjectName": "Budownictwo",
+        "subjectName": "Biogospodarka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
-          "noPointsInfo": false,
-          "p15_16": 188,
-          "p16_17": 153,
-          "p17_18": 203,
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -156,6 +160,93 @@
               "multiplier": 2
             },
             {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
+        "subjectName": "Budownictwo",
+        "matricExam": false,
+        "new": false,
+        "cancelled": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 188,
+          "p16_17": 153,
+          "p17_18": 203,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            [
+              {
+                "name": "E_PHI",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
               "name": "E_PHY",
               "multiplier": 2
             }
@@ -165,6 +256,8 @@
       {
         "subjectName": "Ochrona Środowiska",
         "matricExam": false,
+        "new": false,
+        "cancelled": true,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 120,
@@ -244,6 +337,8 @@
       {
         "subjectName": "Inżynieria Środowiska",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 119,
@@ -276,89 +371,20 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
-          ]
-        },
-        "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
-          "p19_20": 0,
-          "calculationBasic": [
-            {
-              "name": "B_PL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_FL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1.3
-            }
-          ],
-          "calculationExtended": [
-            {
-              "name": "E_PL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_FL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_MAT",
-              "multiplier": 2
-            },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
-          ]
-        }
-      },
-      {
-        "subjectName": "Biogospodarka",
-        "matricExam": false,
-        "pointsv1": {
-          "noPointsInfo": true,
-          "p15_16": 0,
-          "p16_17": 0,
-          "p17_18": 0,
-          "calculationBasic": [
-            {
-              "name": "B_PL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_FL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1.3
-            }
-          ],
-          "calculationExtended": [
-            {
-              "name": "E_PL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_FL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_MAT",
-              "multiplier": 2
-            },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHI",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
@@ -409,6 +435,8 @@
       {
         "subjectName": "Inżynieria materiałowa",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 134,
@@ -488,6 +516,8 @@
       {
         "subjectName": "Lotnictwo i kosmonautyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 272,
@@ -567,6 +597,8 @@
       {
         "subjectName": "Mechanika i budowa maszyn",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 197,
@@ -646,6 +678,8 @@
       {
         "subjectName": "Mechatronika",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 198,
@@ -725,6 +759,8 @@
       {
         "subjectName": "Transport",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 103,
@@ -804,6 +840,8 @@
       {
         "subjectName": "Zarządzanie i inżynieria produkcji",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 168,
@@ -888,8 +926,91 @@
     "facultyURL": "https://wch.w.prz.edu.pl",
     "subjects": [
       {
+        "subjectName": "Biogospodarka",
+        "matricExam": false,
+        "new": false,
+        "cancelled": false,
+        "pointsv1": {
+          "noPointsInfo": false,
+          "p15_16": 114,
+          "p16_17": 120,
+          "p17_18": 159,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
         "subjectName": "Biotechnologia",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 114,
@@ -969,6 +1090,8 @@
       {
         "subjectName": "Inżynieria chemiczna i procesowa",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 101,
@@ -1048,6 +1171,8 @@
       {
         "subjectName": "Technologia chemiczna",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 109,
@@ -1134,6 +1259,8 @@
       {
         "subjectName": "Automatyka i robotyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 244,
@@ -1213,6 +1340,8 @@
       {
         "subjectName": "Elektronika i telekomunikacja",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 131,
@@ -1292,6 +1421,8 @@
       {
         "subjectName": "Elektrotechnika",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 123,
@@ -1371,6 +1502,8 @@
       {
         "subjectName": "Energetyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 133,
@@ -1450,6 +1583,8 @@
       {
         "subjectName": "Informatyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 277,
@@ -1534,8 +1669,91 @@
     "facultyURL": "https://wch.w.prz.edu.pl",
     "subjects": [
       {
+        "subjectName": "Inżynieria i analiza danych",
+        "matricExam": false,
+        "new": true,
+        "cancelled": false,
+        "pointsv1": {
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        },
+        "pointsv2": {
+          "noPointsInfo": false,
+          "p18_19": 201,
+          "p19_20": 0,
+          "calculationBasic": [
+            {
+              "name": "B_PL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_FL",
+              "multiplier": 1
+            },
+            {
+              "name": "B_MAT",
+              "multiplier": 1.3
+            }
+          ],
+          "calculationExtended": [
+            {
+              "name": "E_PL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_FL",
+              "multiplier": 1.3
+            },
+            {
+              "name": "E_MAT",
+              "multiplier": 2
+            },
+            {
+              "name": "E_HIS",
+              "multiplier": 2
+            }
+          ]
+        }
+      },
+      {
         "subjectName": "Inżynieria medyczna",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 90,
@@ -1615,6 +1833,8 @@
       {
         "subjectName": "Matematyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 148,
@@ -1701,6 +1921,8 @@
       {
         "subjectName": "Mechanika i budowa maszyn",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 197,
@@ -1780,6 +2002,8 @@
       {
         "subjectName": "Zarządzanie i inżynieria produkcji #2",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 168,
@@ -1866,6 +2090,8 @@
       {
         "subjectName": "Bezpieczeństwo wewnętrzne",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 125,
@@ -1945,6 +2171,8 @@
       {
         "subjectName": "Finanse i rachunkowość",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 197,
@@ -2024,6 +2252,8 @@
       {
         "subjectName": "Logistyka",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 163,
@@ -2101,13 +2331,15 @@
         }
       },
       {
-        "subjectName": "Sport",
+        "subjectName": "Zarządzanie",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
-          "noPointsInfo": true,
-          "p15_16": 0,
-          "p16_17": 0,
-          "p17_18": 0,
+          "noPointsInfo": false,
+          "p15_16": 98,
+          "p16_17": 50,
+          "p17_18": 244,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -2180,13 +2412,15 @@
         }
       },
       {
-        "subjectName": "Zarządzanie",
+        "subjectName": "Zarządzanie w sporcie",
         "matricExam": false,
+        "new": false,
+        "cancelled": false,
         "pointsv1": {
-          "noPointsInfo": false,
-          "p15_16": 98,
-          "p16_17": 50,
-          "p17_18": 244,
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
           "calculationBasic": [
             {
               "name": "B_PL",

@@ -133,4 +133,12 @@
   padding: 2px 4px;
   background-color: rgba(0, 55, 158, 0.7);
 }
+
+.newCourse {
+  background-color: #a50000;
+  color: #FFF;
+  font-weight: lighter;
+  font-size: .8rem;
+  padding: 5px;
+}
 /*# sourceMappingURL=Summary.css.map */
