@@ -136,13 +136,13 @@ strong {
 
 @media screen and (max-width: 1210px) {
   :root {
-    font-size: 12px;
+    font-size: 14px;
   }
   .QuoteWrapper {
     margin: 5px;
   }
   .quote {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .quoteAuthor {
     margin-top: 10px;
