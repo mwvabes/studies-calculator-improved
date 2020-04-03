@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import './../styles/InputMarks.css'
 import './../styles/Corners.css'
 import Header from './Header'
+import Quote from './Quote';
 
 export default class InputMarks extends React.Component {
 
@@ -16,17 +17,6 @@ export default class InputMarks extends React.Component {
     let regex = new RegExp("(^[0-1][0][0]$)|(^[0-9][0-9]$)|(^[0-9]$)", "g")
 
     if (regex.test(event.target.value)) {
-      // //let state = {};
-      // //this.state.yourPoints[event.target.name] = event.target.value;
-      // console.log(this.state.yourPoints[event.target.name])
-      // // this.setState(state, () => {
-      // //   //console.log(this.state.yourPoints[event.target.name])
-      // //   //localStorage.setItem('yourPoints', JSON.stringify(this.state.yourPoints))
-      // // });
-      // this.setState({['yourPoints.' + event.target.name]: event.target.value}, () => {
-      //   //localStorage.setItem([this.state.yourPoints[event.target.name]], event.target.value)
-      //   console.log(this.state)
-      // })
 
       let newState = this.state.yourPoints
       newState[event.target.name] = event.target.value
@@ -37,8 +27,6 @@ export default class InputMarks extends React.Component {
     } else {
       event.target.value = event.target.value.substring(0,event.target.value.length-1)
     }
-
-
 
   }
 
@@ -51,7 +39,7 @@ export default class InputMarks extends React.Component {
   }
 
   fillInForm() {
-    let inputs = document.querySelectorAll("form input[type=text]")
+    let inputs = document.querySelectorAll("form input[type=tel]")
     let local = JSON.parse(localStorage.yourPoints)
 
     for(let input of inputs) {
@@ -70,6 +58,9 @@ export default class InputMarks extends React.Component {
         <Header key="MainHeader" />
 
         <div className="InputMarksGeneralWrapper">
+
+          <Quote />
+
           <form>
             <div className="InputMarksCardBorders">
               <div className="CornerTopLeft"></div>
@@ -78,13 +69,13 @@ export default class InputMarks extends React.Component {
               <div className="CornerBottomRight"></div>
 
               <div className="Compatibility">
-                <p>*Kompatybilność z letnią rekrutacją 2020 (dane według Informatora).</p>
-                <p>Stworzone przez: <a href="http://vabes.pl">Marcin Wielgos</a></p>
+                <p>*Kompatybilność z letnią rekrutacją 2020 (dane według Informatora PRz).</p>
+                <p></p>
               </div>
 
               <div className="InputMarksCard">
-                <h1>Wprowadź swoje wyniki</h1>
-                <div className="Row">
+                <h1>Wprowadź swoje wyniki aby obliczyć wskaźnik rekrutacyjny</h1>
+                <div className="Row BasicSectionWrapper">
                 <div className="InputBasicSection">
                   <div className="InputHeadingSection">
                     <h2>Przedmioty obowiązkowe</h2>
@@ -94,17 +85,17 @@ export default class InputMarks extends React.Component {
 
                     <div className="SingleInput">
                       <label htmlFor="B_PL">Język polski</label>
-                      <input type="text" name="B_PL" autoFocus onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="B_PL" autoFocus onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="B_FL">Język obcy nowożytny</label>
-                      <input type="text" name="B_FL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="B_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="B_PL">Matematyka</label>
-                      <input type="text" name="B_MAT" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="B_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                   </div>
@@ -131,57 +122,57 @@ export default class InputMarks extends React.Component {
 
                     <div className="SingleInput">
                       <label htmlFor="E_BIO">Biologia</label>
-                      <input type="text" name="E_BIO" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_BIO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_CH">Chemia</label>
-                      <input type="text" name="E_CH" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_CH" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PHI">Filozofia</label>
-                      <input type="text" name="E_PHI" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PHI" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PHY">Fizyka</label>
-                      <input type="text" name="E_PHY" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PHY" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_GEO">Geografia</label>
-                      <input type="text" name="E_GEO" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_GEO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_HIS">Historia / Historia sztuki</label>
-                      <input type="text" name="E_HIS" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_HIS" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_IT">Informatyka</label>
-                      <input type="text" name="E_IT" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_IT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_FL">Język obcy nowożytny</label>
-                      <input type="text" name="E_FL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PL">Język polski</label>
-                      <input type="text" name="E_PL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_MAT">Matematyka</label>
-                      <input type="text" name="E_MAT" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_CIV">WOS</label>
-                      <input type="text" name="E_CIV" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_CIV" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
 

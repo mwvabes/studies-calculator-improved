@@ -1,8 +1,15 @@
 import React from 'react'
+import { Collapse } from 'react-collapse';
+import PointsOverall from './PointsOverall';
+import WhatToMark from './WhatToMark';
 
 export default class Subject extends React.Component {
 
   state = {
+    collapse: {
+      isOpened: false,
+      classes: "collapse collapseIcon"
+    },
     subject: {
       subjectName: "",
       matricExam: true,
@@ -48,9 +55,8 @@ export default class Subject extends React.Component {
 
   componentDidMount() {
     this.setState({ subject: this.props.subject }, () => {
-      //console.log("CALCULATING")
-      this.calculatePointsv1("v1")
-      this.calculatePointsv1("v2")
+      this.calculatePoints("v1")
+      this.calculatePoints("v2")
     })
   }
 
@@ -59,7 +65,7 @@ export default class Subject extends React.Component {
     let local = JSON.parse(localStorage.yourPoints)
     let extendedOverall = subExt.multiplier * local[subExt.name]
     let basicOverall = 0
-    //console.log(extendedOverall)
+
     let basicNameToCompare = "B" + subExt.name.substring(1)
     let subjectUsed = ""
     let overall = 0
@@ -68,10 +74,8 @@ export default class Subject extends React.Component {
       if (subBas.name === basicNameToCompare) {
         basicOverall = subBas.multiplier * local[subBas.name]
         subjectUsed = subBas.name
-      } 
+      }
     }
-
-    //console.log(basicOverall + "B " + extendedOverall + "E ")
 
     if (basicOverall > extendedOverall) {
       overall = basicOverall
@@ -80,37 +84,15 @@ export default class Subject extends React.Component {
       overall = extendedOverall
     }
 
-    //console.log("Used " + subjectUsed)
-
-    //console.log(local)
-    //console.log(subExt.name)
-    //console.log(local[subExt.name])
-
-
-    // let correspondingBasicSub = "B" + sub.name.substring(1)
-    // let overall = 0;
-    // let basicOverall = 0;
-    // let extendedOverall = 0;
-    // let local = JSON.parse(localStorage.yourPoints)
-    // let usedSubject = ""
-
-    // for (let sub of this.state.subject['points' + version]['calculationExtended']) {
-    //   if (basicSub.name === correspondingBasicSub) { //if there is...
-    //     basicOverall += basicSub.multiplier * local[basicSub.name] //calculate its points
-    //   }
-    // }
-
-    // if (basicOverall > )
-
     overall = Math.round(overall * 2) / 2
     if (isNaN(overall) || overall < 0) overall = "--"
 
-    return {overall: overall, used: subjectUsed}
+    return { overall: overall, used: subjectUsed }
 
 
   }
 
-  calculatePointsv1(version) {
+  calculatePoints(version) {
 
     let overall = 0;
     let used = []
@@ -126,65 +108,43 @@ export default class Subject extends React.Component {
       } else {
         subCalculation = this.getBestFromExtendedAndBasic(version, sub)
       }
-      
-      //console.log(subCalculation)
+
       overall += subCalculation.overall;
       used.push(subCalculation.used)
 
     }
 
-    this.setState({ yourPointsv1: overall })
-    // this.setState(prevState => ({
-    //   used: [...prevState.used, newelement]
-    // }))
+    if (version === "v1") {
+      this.setState({ yourPointsv1: overall })
+    } else {
+      this.setState({ yourPointsv2: overall })
+    }
+    //this.setState({ yourPointsv2: overall })
     this.setState({ usedSubjects: JSON.stringify(used) })
-    console.log(this.state.usedSubjects)
 
-    // let overall = 0
-    // let local = JSON.parse(localStorage.yourPoints)
 
-    // for (let sub of this.state.subject['points' + version]['calculationExtended']) { //for every extended subject
+  }
 
-    //   if (!Array.isArray(sub)) {
-    //     let extendedOverall = sub.multiplier * local[sub.name] //calculate its points
-    //     let basicOverall = 0
+  handleCollapse(e) {
 
-    //     for (let basicSub of this.state.subject['points' + version]['calculationExtended']) { //then check if there is basic level of this subject
-          
-    //     }
-    //     basicOverall > extendedOverall ? overall += basicOverall : overall += extendedOverall //then add to overall bigger number, from extended or basic
+    if (this.state.collapse.isOpened) {
+      let giveState = {
+        collapse: {
+          isOpened: false,
+          classes: "collapse collapseIcon"
+        }
+      }
+      this.setState(giveState)
+    } else {
+      let giveState = {
+        collapse: {
+          isOpened: true,
+          classes: "collapse collapseIcon collapseIconUp"
+        }
+      }
+      this.setState(giveState)
+    }
 
-    //   } else {
-    //     for (let partialSubject of sub) {
-
-    //       let partialOveral
-
-    //     }
-    //   }
-
-      // let extendedOverall = sub.multiplier * local[sub.name] //calculate its points
-      // let basicOverall = 0
-
-      // //console.log(local)
-
-      // for (let basicSub of this.state.subject['points' + version ]['calculationExtended']) { //then check if there is basic level of this subject
-      //   if (basicSub.name === "B" + sub.name.substring(1)) { //if there is...
-      //     basicOverall += basicSub.multiplier * local[basicSub.name] //calculate its points
-      //   } 
-      // }
-
-      // basicOverall > extendedOverall ? overall += basicOverall : overall += extendedOverall //then add to overall bigger number, from extended or basic
-      //console.log(Array.isArray(sub))
-      //console.log(sub)
-
-    // }
-    // overall = Math.round(overall * 2) / 2
-    // if (isNaN(overall) || overall < 0) overall = "--"
-    // //console.log(overall)
-    // this.setState({ yourPointsv1: overall }, () => {
-    //   //this.calculatePointsv1("v1")
-    //   //this.calculatePointsv1("v2")
-    // })
   }
 
 
@@ -193,16 +153,88 @@ export default class Subject extends React.Component {
     return (
 
       <>
+
         <div className="Subject">
-          <p className="SubjectName">{this.state.subject.subjectName}{this.state.subject.matricExam ? <span className='matricExam'>Obowiązuje egzamin wstępny (dodatkowe punkty)</span> : ""}{this.state.subject.new ? <span className='newCourse'>NOWOŚĆ!</span> : ""}{this.state.subject.cancelled ? <span className='courseCancelled'><span role="img" aria-label="Yellow circle">🟡</span> Kierunek zamknięty</span> : ""}</p>
-          <p className="points pointsv2 yourPoints">{this.state.subject.pointsv2.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.yourPointsv1}</p>
-          <p className={"p18_19 points pointsv2 " + (this.state.yourPointsv2 >= this.state.subject.pointsv2.p18_19 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv2.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv2.p18_19}</p>
-          <p className="points pointsv1 yourPoints">{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.yourPointsv1}</p>
-          <p className={"p17_18 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p17_18 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p17_18}</p>
-          <p className={"p16_17 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p16_17 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p16_17}</p>
-          <p className={"p15_16 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p15_16 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p15_16}</p>
+          <div className="SubjectGeneral">
+            <label className="CollapseLabel" htmlFor={this.state.subject.subjectName + "Label"} onClick={this.handleCollapse.bind(this)}>
+              <p className="SubjectName">
+                {this.state.subject.subjectName}
+                {this.state.subject.matricExam ? <span role="img" aria-label="Page with curl">📃</span> : ""}
+                {this.state.subject.new ? <span className='newCourse'>NOWOŚĆ!</span> : ""}
+                {this.state.subject.cancelled ? <span role="img" aria-label="Yellow circle">🟡</span> : ""}</p>
+              <p className="points pointsv2 YourPoints">{this.state.subject.pointsv2.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.yourPointsv2 + " pkt."}</p>
+              <p className="CollapseIconWrapper"><span className={this.state.collapse.classes}></span></p>
+            </label>
+          </div>
+
+          <Collapse isOpened={this.state.collapse.isOpened} id={this.state.subject.subjectName + "Collapse"}>
+            <div className="SubjectCollapse">
+
+              <div className="SubjectRow">
+                {this.state.subject.matricExam ? <span className='matricExam'><span role="img" aria-label="Page with curl">📃</span> Obowiązuje egzamin wstępny (dodatkowe punkty)</span> : ""}
+                {this.state.subject.cancelled ? <span className='courseCancelled'><span role="img" aria-label="Yellow circle">🟡</span> Na ten kierunek nie jest prowadzona rekrutacja na studia I stopnia</span> : ""}
+              </div>
+
+              <div className="PointsWrapper">
+                <div className="pointsSection PointsSectionV2">
+                  <h3>Rekrutacja v2 (nowa, 2018/19 - obecnie)</h3>
+                  <div className="SubjectRow">
+
+                    <div className="YourPointsOverall">
+                      <PointsOverall points={this.state.yourPointsv2} noPoints={this.state.subject.pointsv2.noPointsInfo} />
+                    </div>
+
+                    <div className="ThresholdSection">
+                      <p>Próg 2018/19</p>
+                      <p className={"p18_19 points pointsv2 " + (this.state.yourPointsv2 >= this.state.subject.pointsv2.p18_19 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv2.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv2.p18_19}</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pointsSection PointsSectionV1">
+                  <h3>Rekrutacja v1 (stara, do 2017/18 włącznie)</h3>
+                  <div className="SubjectRow">
+
+                    <div className="YourPointsOverall">
+                      <PointsOverall points={this.state.yourPointsv1} noPoints={this.state.subject.pointsv1.noPointsInfo} />
+                    </div>
+
+                    <div className="ThresholdSection">
+                      <p>Próg 2017/18</p>
+                      <p className={"p17_18 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p17_18 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p17_18}</p>
+                    </div>
+
+                    <div className="ThresholdSection">
+                      <p>Próg 2016/17</p>
+                      <p className={"p16_17 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p16_17 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p16_17}</p>
+                    </div>
+
+                    <div className="ThresholdSection">
+                      <p>Próg 2015/16</p>
+                      <p className={"p15_16 points pointsv1 " + (this.state.yourPointsv1 >= this.state.subject.pointsv1.p15_16 ? "higherPoints" : "lowerPoints")}>{this.state.subject.pointsv1.noPointsInfo ? <span role="img" aria-label="White square">◻️</span> : this.state.subject.pointsv1.p15_16}</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="WhatToMarkGeneralWrapper">
+
+                <WhatToMark whatToMark={this.state.subject.pointsv2} key={this.state.subject.subjectName + "v1wtm"} title="Co zdawać na maturze? (v2)" />
+                <WhatToMark whatToMark={this.state.subject.pointsv1} key={this.state.subject.subjectName + "v2wtm"} title="Stary sposób liczenia (v1)" />
+
+                
+
+                </div>
+                <p className="MultiplierParagraph">Na <span className="MultiplierColor">różowo</span> zaznaczono współczynnik (mnożnik).</p>
+              </div>
+
+              
+
+            </div>
+          </Collapse>
 
         </div>
+
       </>
     )
   }

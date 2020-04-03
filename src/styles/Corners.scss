@@ -2,6 +2,8 @@
 $thickness: 7px;
 $length: 40px;
 
+$maxWidth: 1200px;
+
 $bgColor: #e2e2e2;
 
 .CornerTopLeft {
@@ -58,4 +60,12 @@ $bgColor: #e2e2e2;
 
 .CornerTopRight::after, .CornerBottomRight::after {
   right: 0;
+}
+
+@media screen and (max-width: $maxWidth + 20px) {
+  
+  .CornerTopLeft, .CornerTopRight, .CornerBottomLeft, .CornerBottomRight {
+    display: none;
+  }
+
 }

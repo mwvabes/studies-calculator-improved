@@ -26,6 +26,11 @@ export default class Instruction extends React.Component {
             </ul>
           </div>
           <div className="InstructionInfo">
+            <ul>
+              <li><span className="important">Strona została wykonana w celach hobbystycznych i <strong>nie jest</strong> oficjalną stroną udostępnianą przez Politechnikę Rzeszowską</span></li>
+            </ul>
+          </div>
+          <div className="InstructionInfo">
             <h2>Wyniki maturalne, progi, egzaminy wstępne</h2>
             <ul>
               <li>Wystarczy, że uzupełnisz tylko okienka przedmiotów, z których zdawałeś maturę. Resztę okienek możesz zostawić puste.</li>
@@ -69,14 +74,14 @@ export default class Instruction extends React.Component {
             </ul>
           </div>
           <div className="InstructionInfo">
-            <h2>Twoja matura</h2>
             <ul>
-              <li>Nie bój się Twojej matury. W przyszłości czeka Cię jeszcze wiele innych stresujących sytuacji. Opanowanie stresu jest ważne, aby racjonalnie podejmować decyzje.</li>
-              <li>Ucz się wytrwale, pamiętaj o odpoczynku i daj z siebie wszystko na maturze.</li>
-              <li>Powodzenia!</li>
+              <li>Powodzenia na maturze i podczas rekrutacji!</li>
             </ul>
           </div>
         </div>
+
+        <p className="CookiesInfoBottom">Strona korzysta z cookies i pamięci przeglądarki w celu zbierania danych Google Analytics oraz lokalnego przechowywania wyników. Strona nie zbiera informacji o wynikach maturalnych.</p>
+
       </>
     )
   }

@@ -44,3 +44,17 @@ $maxWidth: 1200px;
   padding: 2px 4px;
   background-color: #29125e;
 }
+
+.CookiesInfoBottom {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  text-align: center;
+  margin: 40px 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: $maxWidth + 10px) {
+  .Instruction {
+    padding: 10px;
+  }
+}

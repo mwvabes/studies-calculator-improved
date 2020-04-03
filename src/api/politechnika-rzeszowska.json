@@ -12,8 +12,8 @@
         "pointsv1": {
           "noPointsInfo": false,
           "p15_16": 168,
-          "p16_17": 140,
-          "p17_18": 210,
+          "p16_17": 465,
+          "p17_18": 578,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -25,17 +25,17 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
@@ -49,8 +49,8 @@
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
-          "p19_20": 201,
+          "p18_19": 465,
+          "p19_20": 0,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -129,8 +129,8 @@
           ]
         },
         "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
+          "noPointsInfo": true,
+          "p18_19": 0,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -187,17 +187,17 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
@@ -217,7 +217,7 @@
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 167,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -246,10 +246,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_PHY",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -259,10 +265,10 @@
         "new": false,
         "cancelled": true,
         "pointsv1": {
-          "noPointsInfo": false,
-          "p15_16": 120,
-          "p16_17": 107,
-          "p17_18": 174,
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -274,31 +280,41 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
+          "noPointsInfo": true,
+          "p18_19": 0,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -355,17 +371,17 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
@@ -381,7 +397,7 @@
                 "multiplier": 2
               },
               {
-                "name": "E_GEO",
+                "name": "E_BIO",
                 "multiplier": 2
               }
             ]
@@ -389,7 +405,7 @@
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 101,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -418,10 +434,24 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       }
@@ -453,32 +483,38 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
-          "p19_20": 201,
+          "p18_19": 204,
+          "p19_20": 0,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -506,10 +542,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -534,31 +576,31 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 271,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -615,31 +657,31 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 199,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -669,7 +711,7 @@
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -720,7 +762,7 @@
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 252,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -749,10 +791,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -777,31 +825,31 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 193,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -831,7 +879,7 @@
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -858,31 +906,31 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 197,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -912,7 +960,7 @@
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -928,13 +976,13 @@
       {
         "subjectName": "Biogospodarka",
         "matricExam": false,
-        "new": false,
+        "new": true,
         "cancelled": false,
         "pointsv1": {
-          "noPointsInfo": false,
-          "p15_16": 114,
-          "p16_17": 120,
-          "p17_18": 159,
+          "noPointsInfo": true,
+          "p15_16": 0,
+          "p16_17": 0,
+          "p17_18": 0,
           "calculationBasic": [
             {
               "name": "B_PL",
@@ -969,8 +1017,8 @@
           ]
         },
         "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
+          "noPointsInfo": true,
+          "p18_19": 0,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1027,31 +1075,41 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 150,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1080,10 +1138,20 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1108,31 +1176,41 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 180,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1161,10 +1239,20 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1189,31 +1277,45 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_INF",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 130,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1242,10 +1344,24 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       }
@@ -1277,31 +1393,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 307,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1330,10 +1452,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1358,31 +1486,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 179,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1411,10 +1545,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1439,31 +1579,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 197,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1492,10 +1638,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1520,31 +1672,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 183,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1573,10 +1731,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_CH",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -1601,31 +1765,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_INF",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 333,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1654,10 +1824,16 @@
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       }
@@ -1712,8 +1888,8 @@
           ]
         },
         "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
+          "noPointsInfo": true,
+          "p18_19": 0,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1732,20 +1908,26 @@
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 4
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_IT",
+                "multiplier": 4
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 4
+              }
+            ]
           ]
         }
       },
@@ -1770,31 +1952,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 4
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 4
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 4
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 148,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1813,20 +2001,26 @@
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 4
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_IT",
+                "multiplier": 4
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 4
+              }
+            ]
           ]
         }
       },
@@ -1851,31 +2045,41 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 12
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 4
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CH",
+                "multiplier": 4
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 4
+              },
+              {
+                "name": "E_IT",
+                "multiplier": 4
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 140,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1894,20 +2098,26 @@
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 4
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_IT",
+                "multiplier": 4
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 4
+              }
+            ]
           ]
         }
       }
@@ -1939,31 +2149,31 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 199,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -1993,7 +2203,7 @@
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -2020,24 +2230,24 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -2074,7 +2284,7 @@
               "multiplier": 2
             },
             {
-              "name": "E_HIS",
+              "name": "E_PHY",
               "multiplier": 2
             }
           ]
@@ -2105,34 +2315,36 @@
             {
               "name": "B_FL",
               "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1.3
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_MAT",
               "multiplier": 2
             },
             {
               "name": "E_HIS",
               "multiplier": 2
-            }
+            },
+            [
+              {
+                "name": "E_CIV",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 164.5,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -2142,10 +2354,6 @@
             {
               "name": "B_FL",
               "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1.3
             }
           ],
           "calculationExtended": [
@@ -2155,16 +2363,22 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_MAT",
               "multiplier": 2
             },
             {
               "name": "E_HIS",
               "multiplier": 2
-            }
+            },
+            [
+              {
+                "name": "E_CIV",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              }
+            ]
           ]
         }
       },
@@ -2189,31 +2403,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_HIS",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 284,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -2236,16 +2456,22 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_HIS",
+                "multiplier": 1.5
+              }
+            ]
           ]
         }
       },
@@ -2270,31 +2496,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              },
+              {
+                "name": "E_GEO",
+                "multiplier": 2
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 281,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -2317,16 +2549,22 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 1.5
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_GEO",
+                "multiplier": 2
+              },
+              {
+                "name": "E_PHY",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       },
@@ -2351,31 +2589,37 @@
             },
             {
               "name": "B_MAT",
-              "multiplier": 1.3
+              "multiplier": 1
             }
           ],
           "calculationExtended": [
             {
               "name": "E_PL",
-              "multiplier": 1.3
+              "multiplier": 1
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_HIS",
+                "multiplier": 1.5
+              }
+            ]
           ]
         },
         "pointsv2": {
           "noPointsInfo": false,
-          "p18_19": 201,
+          "p18_19": 197,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -2398,23 +2642,29 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
               "multiplier": 2
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_GEO",
+                "multiplier": 1.5
+              },
+              {
+                "name": "E_HIS",
+                "multiplier": 1.5
+              }
+            ]
           ]
         }
       },
       {
         "subjectName": "Zarządzanie w sporcie",
         "matricExam": false,
-        "new": false,
+        "new": true,
         "cancelled": false,
         "pointsv1": {
           "noPointsInfo": true,
@@ -2455,8 +2705,8 @@
           ]
         },
         "pointsv2": {
-          "noPointsInfo": false,
-          "p18_19": 201,
+          "noPointsInfo": true,
+          "p18_19": 0,
           "p19_20": 0,
           "calculationBasic": [
             {
@@ -2479,16 +2729,22 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 1.3
+              "multiplier": 2
             },
             {
               "name": "E_MAT",
-              "multiplier": 2
+              "multiplier": 1.5
             },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
+            [
+              {
+                "name": "E_CIV",
+                "multiplier": 2
+              },
+              {
+                "name": "E_BIO",
+                "multiplier": 2
+              }
+            ]
           ]
         }
       }

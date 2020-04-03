@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
+  height: 50px;
   background-color: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +52,6 @@
 }
 
 .Header ul li a {
-  padding: 10px;
   margin: 0px 5px;
 }
 
@@ -59,9 +59,88 @@
   color: #97efff;
 }
 
-.cookiesInfo {
+.HeaderInfo {
   color: rgba(255, 255, 255, 0.75);
   font-size: .7rem;
   text-transform: uppercase;
+}
+
+.HeaderInfo a {
+  -webkit-transition: color 175ms ease-in-out;
+  transition: color 175ms ease-in-out;
+}
+
+.HeaderInfo a:hover {
+  color: #00d9ff;
+}
+
+@media screen and (max-width: 1210px) {
+  .navToggle ~ ul {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+  }
+  .navToggle ~ ul li {
+    background-color: #29125e;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .navToggle:checked ~ ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navToggleLabel > span {
+    display: block;
+    background-color: #FFF;
+    height: 6px;
+    width: 30px;
+    position: relative;
+  }
+  .navToggleLabel > span::before,
+  .navToggleLabel > span::after {
+    content: '';
+    background-color: #FFF;
+    height: 6px;
+    width: 30px;
+    position: absolute;
+  }
+  .navToggleLabel > span::before {
+    top: -10px;
+  }
+  .navToggleLabel > span::after {
+    bottom: -10px;
+  }
+  .navToggleLabel {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav > ul > li:nth-child(odd) {
+    background-color: #00325c;
+  }
+  nav > ul > li:nth-child(even) {
+    background-color: #001347;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

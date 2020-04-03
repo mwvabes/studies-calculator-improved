@@ -53,4 +53,10 @@
 .CornerTopRight::after, .CornerBottomRight::after {
   right: 0;
 }
+
+@media screen and (max-width: 1220px) {
+  .CornerTopLeft, .CornerTopRight, .CornerBottomLeft, .CornerBottomRight {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Corners.css.map */

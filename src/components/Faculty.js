@@ -1,21 +1,21 @@
 import React from 'react'
 import Subject from './Subject'
 
-export default class Header extends React.Component {
+export default class Faculty extends React.Component {
 
   state = {
     faculty: {
       facultyURL: "",
       facultyShortcut: "",
       facultyName: "",
-      subjects: [{subjectName: ""}]
+      subjects: [{ subjectName: "" }]
     }
   }
 
   componentDidMount() {
-    this.setState({faculty: this.props.faculty})
+    this.setState({ faculty: this.props.faculty })
   }
-  
+
 
   render() {
 
@@ -23,21 +23,16 @@ export default class Header extends React.Component {
       <>
 
         <div className="Faculty">
-          <div className="FacultyInfo">
+          <div className="FacultyHeader">
             <a className="ShortcutName" href={this.state.faculty.facultyURL} target="_blank" rel="noopener noreferrer">{this.state.faculty.shortcutName}</a>
             <p className="FullName" >{this.state.faculty.fullName}</p>
-            <p className="points">Twoje punkty (v2)</p>
-            <p className="points">2018/19</p>
-            <p className="points">Twoje punkty (v1)</p>
-            <p className="points">2017/18</p>
-            <p className="points">2016/17</p>
-            <p className="points">2015/16</p>
+            <p className="OnFacultyInstruction">Kliknij na wybrany kierunek aby zobaczyć szczegóły</p>
           </div>
+
           <div className="Subjects">
-          
             {this.state.faculty.subjects.map((subject) => <Subject key={subject.subjectName} subject={subject} />)}
           </div>
-          
+
         </div>
 
       </>

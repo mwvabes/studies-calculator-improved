@@ -1,3 +1,28 @@
+.PointsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ShortcutName {
+  margin: 10px 2px;
+  -webkit-transition: color 175ms ease-in-out;
+  transition: color 175ms ease-in-out;
+}
+
+.FullName {
+  margin: 10px 2px;
+  font-weight: bold;
+}
+
+.ShortcutName:hover {
+  color: #00a11b;
+}
+
 .Summary {
   margin-top: 100px;
   display: -webkit-box;
@@ -22,7 +47,7 @@
   border: 10px solid #FFF;
 }
 
-.FacultyInfo {
+.FacultyHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,42 +55,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border-left: 0px;
-  padding: 5px 0px;
-  color: #402e69;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #FFF;
+  color: #29125e;
+  padding: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.FacultyInfo a {
-  color: #402e69;
-}
-
-.FacultyInfo a {
-  -webkit-transition: color 175ms ease-in-out;
-  transition: color 175ms ease-in-out;
-}
-
-.FacultyInfo a:hover {
-  color: #00a11b;
-}
-
-.FacultyInfo > * {
-  padding: 5px;
-}
-
-.FacultyInfo .ShortcutName {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-}
-
-.FacultyInfo .FullName {
-  -webkit-box-flex: 8;
-      -ms-flex: 8;
-          flex: 8;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
 }
 
 .Subjects {
@@ -82,17 +83,82 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #5284b3;
+}
+
+.SubjectGeneral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 100%;
+}
+
+.SubjectCollapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  background-color: rgba(81, 132, 179, 0.2);
+}
+
+.pointsSection {
+  border-left: 6px double #5284b3;
+  margin: 10px 5px;
+  padding: 5px;
+  background-color: rgba(188, 212, 255, 0.1);
+}
+
+.pointsSection h3 {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.CollapseIconWrapper {
+  width: 50px;
+  text-align: center;
 }
 
 .SubjectName {
   padding: 10px;
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  font-size: 1rem;
+  color: #d4eaff;
+  text-transform: uppercase;
+}
+
+.SubjectRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.SubjectGeneral .CollapseIconWrapper, .SubjectGeneral .points {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .Subject:nth-of-type(even) {
@@ -103,35 +169,49 @@
   background-color: rgba(17, 0, 58, 0.7);
 }
 
-.SubjectName {
-  -webkit-box-flex: 10;
-      -ms-flex: 10;
-          flex: 10;
-}
-
 .points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
   padding: 5px 7px;
-  max-width: 80px;
-  font-size: .9rem;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-transition: color 175ms ease-in-out;
   transition: color 175ms ease-in-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.1rem;
 }
 
-.yourPoints {
-  font-size: 1.2em;
+.YourPoints {
+  font-size: 1.2rem;
+  color: #ffbb00;
+  font-weight: bold;
+  text-transform: lowercase;
 }
 
-.matricExam {
-  font-size: .75rem;
-  margin-left: 10px;
-  padding: 2px 4px;
+.matricExam, .courseCancelled {
+  margin-left: 5px;
+  padding: 4px 6px;
   background-color: rgba(0, 55, 158, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #00a11b;
 }
 
 .newCourse {
@@ -141,5 +221,270 @@
   font-size: .8rem;
   padding: 2px 4px;
   margin: 0px 5px;
+}
+
+.CollapseLabel {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: background-color 100ms ease-in-out;
+  transition: background-color 100ms ease-in-out;
+  width: 100%;
+}
+
+.CollapseLabel:hover {
+  background-color: rgba(42, 73, 212, 0.459);
+}
+
+.CollapseLabel:hover ~ span.collapse {
+  color: #00eeff;
+}
+
+.collapseIcon {
+  border: solid #FFF;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-color 175ms ease-in-out, -webkit-transform 175ms ease-in-out;
+  transition: border-color 175ms ease-in-out, -webkit-transform 175ms ease-in-out;
+  transition: transform 175ms ease-in-out, border-color 175ms ease-in-out;
+  transition: transform 175ms ease-in-out, border-color 175ms ease-in-out, -webkit-transform 175ms ease-in-out;
+  cursor: pointer;
+}
+
+.collapseIconUp {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  border-color: #00eeff;
+}
+
+.ReactCollapse--collapse {
+  -webkit-transition: height 175ms ease-in-out;
+  transition: height 175ms ease-in-out;
+  width: 100%;
+}
+
+.YourPointsOverall, .ThresholdSection {
+  padding: 5px 15px;
+  width: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+}
+
+.YourPointsOverall {
+  border: 1px solid #ffbb00;
+}
+
+.ThresholdSection {
+  border: 1px solid #5284b3;
+}
+
+.OnFacultyInstruction {
+  background-color: #00a11b;
+  color: #FFF;
+  padding: 2px 4px;
+  font-size: .9rem;
+}
+
+.WhatToMarkGeneralWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.WhatToMarkGeneralWrapper > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.WhatToMark {
+  font-size: .8rem;
+  border: 1px solid #89bdee;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.WhatToMark h3 {
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #89bdee;
+  margin: 0px;
+  width: 100%;
+}
+
+.WhatToMarkLevels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.WhatToMarkLevels > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.WhatToMarkRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.WhatToMarkRow:not(:last-child) {
+  border-bottom: 1px solid #89bdee;
+}
+
+.WhatToMarkLevelExtended .WhatToMarkRow {
+  border-left: 1px solid #89bdee;
+}
+
+.WhatToMarkName {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 5px;
+}
+
+.WhatToMarkMultiplier {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #ff00bf;
+}
+
+.MultiplierColor {
+  color: #ff00bf;
+}
+
+.MultiplierParagraph {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+@media screen and (max-width: 650px) {
+  .ShortcutName {
+    margin: 0px;
+  }
+  .FacultyHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .Summary {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .BasicSectionWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .Faculty {
+    border: 0px;
+  }
+  .FacultyInfo {
+    font-size: .7rem;
+  }
+  .FacultyInfo .points {
+    font-weight: lighter;
+    font-size: .8rem;
+  }
+  .YourPointsOverall, .ThresholdSection {
+    padding: 5px;
+  }
+  .SingleInput {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .SubjectRow {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+  }
+  .YourPointsOverall, .ThresholdSection {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 /*# sourceMappingURL=Summary.css.map */

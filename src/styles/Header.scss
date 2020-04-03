@@ -1,8 +1,11 @@
+$maxWidth: 1200px;
+
 .Header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  height: 50px;
   background-color: none;
   display: flex;
   flex-direction: row;
@@ -31,7 +34,6 @@
 }
 
 .Header ul li a {
-  padding: 10px;
   margin: 0px 5px;
 }
 
@@ -39,8 +41,84 @@
   color: #97efff;
 }
 
-.cookiesInfo {
+.HeaderInfo {
   color: rgba(255, 255, 255, 0.75);
   font-size: .7rem;
   text-transform: uppercase;
+}
+
+.HeaderInfo a {
+  transition: color 175ms ease-in-out;
+}
+
+.HeaderInfo a:hover {
+  color: #00d9ff;
+}
+
+@media screen and (max-width: $maxWidth + 10px) {
+  .navToggle ~ ul {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .navToggle ~ ul li {
+    background-color: #29125e;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navToggle:checked ~ ul {
+    display: flex;
+  }
+  
+  .navToggleLabel > span {
+    display: block;
+    background-color: #FFF;
+    height: 6px;
+    width: 30px;
+    position: relative;
+  }
+
+  .navToggleLabel > span::before,
+  .navToggleLabel > span::after {
+    content: '';
+    background-color: #FFF;
+    height: 6px;
+    width: 30px;
+    position: absolute;
+  }
+
+  .navToggleLabel > span::before {
+    top: -10px;
+  }
+
+  .navToggleLabel > span::after {
+    bottom: -10px;
+  }
+  
+  .navToggleLabel {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav > ul > li:nth-child(odd) {
+    background-color: #00325c;
+  }
+  nav > ul > li:nth-child(even) {
+    background-color: #001347;
+  }
+  
 }

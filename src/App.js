@@ -7,6 +7,7 @@ import './styles/global.css'
 import Summary from './components/Summary';
 import Instruction from './components/Instruction';
 import Footer from './components/Footer';
+import Quote from './components/Quote';
 
 export default class App extends React.Component {
 
