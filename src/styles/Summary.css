@@ -271,6 +271,7 @@
   -webkit-transition: height 175ms ease-in-out;
   transition: height 175ms ease-in-out;
   width: 100%;
+  background-color: rgba(0, 112, 255, 0.3);
 }
 
 .YourPointsOverall, .ThresholdSection {

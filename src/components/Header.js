@@ -41,6 +41,7 @@ export default class Header extends React.Component {
             <ul>
               <li><Link to="InputMarksGeneralWrapper" smooth={true} duration={500} offset={-60}>Twoja matura</Link></li>
               <li><Link to="Summary" smooth={true} duration={500} offset={-60}>Podsumowanie</Link></li>
+              <li><Link to="ReportIssue" smooth={true} duration={500} offset={-60}>Zgłoś błąd</Link></li>
               <li><Link to="Instruction" smooth={true} duration={500} offset={-60}>Instrukcja</Link></li>
             </ul>
           </nav>

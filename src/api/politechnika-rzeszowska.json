@@ -88,7 +88,7 @@
       {
         "subjectName": "Biogospodarka",
         "matricExam": false,
-        "new": false,
+        "new": true,
         "cancelled": false,
         "pointsv1": {
           "noPointsInfo": true,
@@ -256,97 +256,6 @@
                 "multiplier": 2
               }
             ]
-          ]
-        }
-      },
-      {
-        "subjectName": "Ochrona Środowiska",
-        "matricExam": false,
-        "new": false,
-        "cancelled": true,
-        "pointsv1": {
-          "noPointsInfo": true,
-          "p15_16": 0,
-          "p16_17": 0,
-          "p17_18": 0,
-          "calculationBasic": [
-            {
-              "name": "B_PL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_FL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1
-            }
-          ],
-          "calculationExtended": [
-            {
-              "name": "E_PL",
-              "multiplier": 1
-            },
-            {
-              "name": "E_FL",
-              "multiplier": 1.5
-            },
-            {
-              "name": "E_MAT",
-              "multiplier": 2
-            },
-            [
-              {
-                "name": "E_BIO",
-                "multiplier": 2
-              },
-              {
-                "name": "E_CH",
-                "multiplier": 2
-              },
-              {
-                "name": "E_GEO",
-                "multiplier": 2
-              }
-            ]
-          ]
-        },
-        "pointsv2": {
-          "noPointsInfo": true,
-          "p18_19": 0,
-          "p19_20": 0,
-          "calculationBasic": [
-            {
-              "name": "B_PL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_FL",
-              "multiplier": 1
-            },
-            {
-              "name": "B_MAT",
-              "multiplier": 1.3
-            }
-          ],
-          "calculationExtended": [
-            {
-              "name": "E_PL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_FL",
-              "multiplier": 1.3
-            },
-            {
-              "name": "E_MAT",
-              "multiplier": 2
-            },
-            {
-              "name": "E_HIS",
-              "multiplier": 2
-            }
           ]
         }
       },
@@ -1307,7 +1216,7 @@
                 "multiplier": 2
               },
               {
-                "name": "E_INF",
+                "name": "E_IT",
                 "multiplier": 2
               }
             ]
@@ -1787,7 +1696,7 @@
                 "multiplier": 2
               },
               {
-                "name": "E_INF",
+                "name": "E_IT",
                 "multiplier": 2
               }
             ]
@@ -2055,7 +1964,7 @@
             },
             {
               "name": "E_FL",
-              "multiplier": 12
+              "multiplier": 2
             },
             {
               "name": "E_MAT",

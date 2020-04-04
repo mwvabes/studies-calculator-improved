@@ -78,7 +78,7 @@
   .navToggle ~ ul {
     display: none;
     position: absolute;
-    top: 75px;
+    top: 115px;
     left: 0;
     right: 0;
     -webkit-box-orient: vertical;

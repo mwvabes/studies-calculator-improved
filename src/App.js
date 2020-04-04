@@ -6,6 +6,7 @@ import './styles/reset.css'
 import './styles/global.css'
 import Instruction from './components/Instruction';
 import Footer from './components/Footer';
+import ReportIssue from './components/ReportIssue';
 
 export default class App extends React.Component {
 
@@ -39,6 +40,7 @@ export default class App extends React.Component {
 
           <Route exact path="/" >
             <InputMarks key="InputMarks" />
+            <ReportIssue />
             <Instruction />
             <Footer />
           </Route>

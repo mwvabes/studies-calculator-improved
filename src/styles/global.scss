@@ -132,6 +132,23 @@ strong {
   opacity: 0;
 }
 
+.ReportIssue {
+  background-color: #FFF;
+  padding: 20px;
+  margin: 20px 5px;
+  width: 100%;
+  max-width: $maxWidth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ReportIssue p {
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: $maxWidth + 10px) {
   :root {
     font-size: 14px;
