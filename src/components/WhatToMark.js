@@ -41,7 +41,6 @@ export default class WhatToMark extends React.Component {
 
   componentDidMount() {
     this.setState({ points: this.props.whatToMark })
-    console.log(this.state)
   }
 
   render() {
@@ -55,10 +54,24 @@ export default class WhatToMark extends React.Component {
 
               {this.state.points.calculationBasic.map((subject) => {
                 if (Array.isArray(subject)) {
-
+                  let names = []
+                  for (let subEl of subject) {
+                    names.push(this.state.voc[subEl.name])
+                  }
+                  names = names.join(" / ")
+                  return (
+                    
+                    <div className="WhatToMarkRow" key={subject[0].name + "wtmArrB"}>
+                    <p className="WhatToMarkName">
+                      {names}
+                      </p>
+                      <p className="WhatToMarkMultiplier">{subject[0].multiplier}</p>
+                    </div>
+                    
+                  )
                 } else {
                   return (
-                    <div className="WhatToMarkRow">
+                    <div className="WhatToMarkRow" key={subject.name + "wtmB"}>
                       <p className="WhatToMarkName">{this.state.voc[subject.name]}</p>
                       <p className="WhatToMarkMultiplier">{subject.multiplier}</p>
                     </div>)
@@ -70,10 +83,27 @@ export default class WhatToMark extends React.Component {
             <div className="WhatToMarkLevelExtended">
               {this.state.points.calculationExtended.map((subject) => {
                 if (Array.isArray(subject)) {
-
+                  // let names = subject.map((subElem) => {
+                  //   {this.state.voc[subElem.name]}
+                  // })
+                  let names = []
+                  for (let subEl of subject) {
+                    names.push(this.state.voc[subEl.name])
+                  }
+                  names = names.join(" / ")
+                  return (
+                    
+                    <div className="WhatToMarkRow" key={subject[0].name + "wtmArrE"}>
+                    <p className="WhatToMarkName">
+                      {names}
+                      </p>
+                      <p className="WhatToMarkMultiplier">{subject[0].multiplier}</p>
+                    </div>
+                    
+                  )
                 } else {
                   return (
-                    <div className="WhatToMarkRow">
+                    <div className="WhatToMarkRow" key={subject.name + "wtmE"}>
                       <p className="WhatToMarkName">{this.state.voc[subject.name]}</p>
                       <p className="WhatToMarkMultiplier">{subject.multiplier}</p>
                     </div>)

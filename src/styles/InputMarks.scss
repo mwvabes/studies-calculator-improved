@@ -145,7 +145,7 @@ $maxWidth: 1200px;
 .SingleInput input {
   padding: 2px;
   color: #1f5e12;
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: bold;
   border: 0px;
   border-bottom: 1px solid #29125e;
@@ -201,6 +201,10 @@ $maxWidth: 1200px;
 }
 
 @media screen and (max-width: $maxWidth + 20px) {
+
+  .SingleInput input {
+    font-size: 1.2rem;
+  }
   
   .InputMarksCardBorders {
     width: 100%;

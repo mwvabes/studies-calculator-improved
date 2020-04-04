@@ -5,6 +5,7 @@ import './../styles/InputMarks.css'
 import './../styles/Corners.css'
 import Header from './Header'
 import Quote from './Quote';
+import Summary from './Summary';
 
 export default class InputMarks extends React.Component {
 
@@ -22,7 +23,6 @@ export default class InputMarks extends React.Component {
       newState[event.target.name] = event.target.value
       this.setState({newState})
       localStorage.setItem('yourPoints', JSON.stringify(newState))
-
 
     } else {
       event.target.value = event.target.value.substring(0,event.target.value.length-1)
@@ -188,6 +188,9 @@ export default class InputMarks extends React.Component {
           </form>
 
         </div>
+
+        <Summary key="Summary" yourPoints={this.state.yourPoints} />
+
       </>
     )
   }

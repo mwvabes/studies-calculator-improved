@@ -30,7 +30,7 @@ export default class Faculty extends React.Component {
           </div>
 
           <div className="Subjects">
-            {this.state.faculty.subjects.map((subject) => <Subject key={subject.subjectName} subject={subject} />)}
+            {this.state.faculty.subjects.map((subject) => <Subject key={subject.subjectName} subject={subject} yourPoints={this.props.yourPoints} />)}
           </div>
 
         </div>

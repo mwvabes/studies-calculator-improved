@@ -50,7 +50,8 @@ export default class Subject extends React.Component {
     },
     yourPointsv1: 1,
     yourPointsv2: 1,
-    usedSubjects: []
+    usedSubjects: [],
+    received: false
   }
 
   componentDidMount() {
@@ -58,11 +59,22 @@ export default class Subject extends React.Component {
       this.calculatePoints("v1")
       this.calculatePoints("v2")
     })
+
   }
 
-  getBestFromExtendedAndBasic(version, subExt) {
+  // componentWillReceiveProps() {
+  //   this.calculatePoints("v1", )
+  //   this.calculatePoints("v2", )
+  // }
 
-    let local = JSON.parse(localStorage.yourPoints)
+  componentWillReceiveProps() {
+    this.calculatePoints("v1", this.props.yourPoints)
+    this.calculatePoints("v2", this.props.yourPoints)
+  }
+
+  getBestFromExtendedAndBasic(version, subExt, local) {
+
+    //let local = JSON.parse(localStorage.yourPoints)
     let extendedOverall = subExt.multiplier * local[subExt.name]
     let basicOverall = 0
 
@@ -92,8 +104,7 @@ export default class Subject extends React.Component {
 
   }
 
-  calculatePoints(version) {
-
+  calculatePoints(version, local = JSON.parse(localStorage.yourPoints)) {
     let overall = 0;
     let used = []
 
@@ -103,10 +114,10 @@ export default class Subject extends React.Component {
 
       if (Array.isArray(sub)) {
         for (let subArrElem of sub) {
-          subCalculation = this.getBestFromExtendedAndBasic(version, subArrElem)
+          subCalculation = this.getBestFromExtendedAndBasic(version, subArrElem, local)
         }
       } else {
-        subCalculation = this.getBestFromExtendedAndBasic(version, sub)
+        subCalculation = this.getBestFromExtendedAndBasic(version, sub, local)
       }
 
       overall += subCalculation.overall;
@@ -149,7 +160,6 @@ export default class Subject extends React.Component {
 
 
   render() {
-
     return (
 
       <>

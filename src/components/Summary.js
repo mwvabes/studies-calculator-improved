@@ -13,7 +13,7 @@ export default class Summary extends React.Component {
       <>
         <div className="Summary">
           <h1>Podsumowanie</h1>
-          {data.map((faculty) => <Faculty key={faculty.shortcutName} faculty={faculty} />)}
+          {data.map((faculty) => <Faculty key={faculty.shortcutName} faculty={faculty} yourPoints={this.props.yourPoints} />)}
         </div>
         
       </>
