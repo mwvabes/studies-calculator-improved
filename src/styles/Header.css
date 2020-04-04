@@ -53,6 +53,7 @@
 
 .Header ul li a {
   margin: 0px 5px;
+  color: #FFF;
 }
 
 .Header ul li:hover {
@@ -68,6 +69,7 @@
 .HeaderInfo a {
   -webkit-transition: color 175ms ease-in-out;
   transition: color 175ms ease-in-out;
+  color: #FFF;
 }
 
 .HeaderInfo a:hover {
