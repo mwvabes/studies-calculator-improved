@@ -201,7 +201,7 @@
 .matricExam, .courseCancelled {
   margin-left: 5px;
   padding: 4px 6px;
-  background-color: rgba(0, 55, 158, 0.7);
+  background-color: #006b12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,7 +303,7 @@
 }
 
 .OnFacultyInstruction {
-  background-color: #00a11b;
+  background-color: #006b12;
   color: #FFF;
   padding: 2px 4px;
   font-size: .9rem;
