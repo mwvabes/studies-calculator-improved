@@ -61,7 +61,7 @@ export default class InputMarks extends React.Component {
 
           <Quote />
 
-          <form>
+          <form autocomplete="off">
             <div className="InputMarksCardBorders">
               <div className="CornerTopLeft"></div>
               <div className="CornerTopRight"></div>
