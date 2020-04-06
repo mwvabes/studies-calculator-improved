@@ -199,7 +199,7 @@
 .SingleInput label {
   font-style: italic;
   color: #6b6b6b;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .SingleInput input {
@@ -208,8 +208,14 @@
   font-size: 1rem;
   font-weight: bold;
   border: 0px;
-  border-bottom: 1px solid #29125e;
+  border-bottom: 3px solid #29125e;
   caret-color: #29125e;
+  -webkit-transition: border 225ms ease-in-out;
+  transition: border 225ms ease-in-out;
+}
+
+.SingleInput input:focus {
+  border-bottom: 3px solid #00a11b;
 }
 
 .Compatibility {
@@ -268,7 +274,7 @@
   color: #006b12;
   font-weight: bold;
   font-size: 1rem;
-  background-color: none;
+  background-color: #FFF;
 }
 
 .AnchorGoToMarks:hover {

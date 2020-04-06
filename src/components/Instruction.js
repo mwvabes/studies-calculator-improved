@@ -31,7 +31,7 @@ export default class Instruction extends React.Component {
             </ul>
           </div>
           <div className="InstructionInfo">
-            <h2>Wyniki maturalne, progi, egzaminy wstępne</h2>
+            <h2>Wyniki maturalne, progi, egzaminy ustne</h2>
             <ul>
               <li>Wystarczy, że uzupełnisz tylko okienka przedmiotów, z których zdawałeś maturę. Resztę okienek możesz zostawić puste.</li>
               <li>Po uzupełnieniu, w okienku z Twoimi punktami wyświetli się odpowiednia punktacja, a progi zaświecą się na <span className="higherPoints pointsInstruction">zielono</span> jeśli Twój wynik jest większy lub równy, a na <span className="lowerPoints pointsInstruction">czerwono</span>, gdy jest mniejszy niż dany próg.</li>

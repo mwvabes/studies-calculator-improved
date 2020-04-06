@@ -85,17 +85,17 @@ export default class InputMarks extends React.Component {
 
                     <div className="SingleInput">
                       <label htmlFor="B_PL">Język polski</label>
-                      <input type="tel" name="B_PL" autoFocus onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="B_PL" id="B_PL" autoFocus onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="B_FL">Język obcy nowożytny</label>
-                      <input type="tel" name="B_FL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="B_FL" id="B_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="B_PL">Matematyka</label>
-                      <input type="tel" name="B_MAT" onKeyUp={this.handleChange.bind(this)} />
+                      <label htmlFor="B_MAT">Matematyka</label>
+                      <input type="tel" name="B_MAT" id="B_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                   </div>
@@ -122,57 +122,57 @@ export default class InputMarks extends React.Component {
 
                     <div className="SingleInput">
                       <label htmlFor="E_BIO">Biologia</label>
-                      <input type="tel" name="E_BIO" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_BIO" id="E_BIO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_CH">Chemia</label>
-                      <input type="tel" name="E_CH" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_CH" id="E_CH" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PHI">Filozofia</label>
-                      <input type="tel" name="E_PHI" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PHI" id="E_PHI" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PHY">Fizyka</label>
-                      <input type="tel" name="E_PHY" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PHY" id="E_PHY" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_GEO">Geografia</label>
-                      <input type="tel" name="E_GEO" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_GEO" id="E_GEO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_HIS">Historia / Historia sztuki</label>
-                      <input type="tel" name="E_HIS" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_HIS" id="E_HIS" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_IT">Informatyka</label>
-                      <input type="tel" name="E_IT" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_IT" id="E_IT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_FL">Język obcy nowożytny</label>
-                      <input type="tel" name="E_FL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_FL" id="E_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_PL">Język polski</label>
-                      <input type="tel" name="E_PL" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_PL" id="E_PL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_MAT">Matematyka</label>
-                      <input type="tel" name="E_MAT" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_MAT" id="E_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
                       <label htmlFor="E_CIV">WOS</label>
-                      <input type="tel" name="E_CIV" onKeyUp={this.handleChange.bind(this)} />
+                      <input type="tel" name="E_CIV" id="E_CIV" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
 
