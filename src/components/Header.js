@@ -32,7 +32,7 @@ export default class Header extends React.Component {
       <>
 
         <header className={"Header " + (this.state.scrollLevel > 0 ? "HeaderBackground" : "")}>
-          <p className="HeaderInfo">Autor: <a href="http://vabes.pl">Marcin Wielgos</a></p>
+          <p className="HeaderInfo">Autor: <a href="https://wielgos.me">Marcin Wielgos</a></p>
           <nav>
             <input type="checkbox" id="navToggle" className="navToggle dsNone" />
             <div className="navToggleContainer">

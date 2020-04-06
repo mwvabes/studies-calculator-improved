@@ -21,7 +21,7 @@ export default class Instruction extends React.Component {
             <h2>Autor Kalkulatora</h2>
             <ul>
               <li>Marcin Wielgos</li>
-              <li>Strona autora: <a href="http://vabes.pl" target="_blank" rel="noopener noreferrer">vabes.pl</a> | GitHub: <a href="http://github.com/mwvabes" target="_blank" rel="noopener noreferrer">mwvabes</a></li>
+              <li>Strona autora: <a href="https://wielgos.me" target="_blank" rel="noopener noreferrer">wielgos.me</a> | GitHub: <a href="http://github.com/mwvabes" target="_blank" rel="noopener noreferrer">mwvabes</a></li>
               <li>Kontakt mailowy: <strong>kontakt.vabes@gmail.com</strong></li>
             </ul>
           </div>

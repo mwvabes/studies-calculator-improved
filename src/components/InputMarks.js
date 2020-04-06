@@ -70,7 +70,7 @@ export default class InputMarks extends React.Component {
 
               <div className="Compatibility">
                 <p>*Kompatybilność z letnią rekrutacją 2020 (dane według Informatora PRz).</p>
-                <p></p>
+                <p>Kalkulator wskaźnika rekrutacyjnego Politechniki Rzeszowskiej</p>
               </div>
 
               <div className="InputMarksCard">
