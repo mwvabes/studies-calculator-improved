@@ -1,8 +1,8 @@
 # Improved Studies Calculator
 
-## Demo
+## Go here to calculate your points
 
-[here](https://kalkulator.wielgos.me "Calculator demo")
+[https://kalkulator.wielgos.me](https://kalkulator.wielgos.me "Calculator demo")
 
 ## Want to run locally?
 
