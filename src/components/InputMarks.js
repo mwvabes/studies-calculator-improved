@@ -74,7 +74,7 @@ export default class InputMarks extends React.Component {
               </div>
 
               <div className="InputMarksCard">
-                <h1>Wprowadź swoje wyniki aby obliczyć wskaźnik rekrutacyjny</h1>
+                <h1>Wprowadź swoje wyniki procentowe aby obliczyć wskaźnik rekrutacyjny</h1>
                 <div className="Row BasicSectionWrapper">
                 <div className="InputBasicSection">
                   <div className="InputHeadingSection">
@@ -84,17 +84,17 @@ export default class InputMarks extends React.Component {
                   <div className="InputsRow">
 
                     <div className="SingleInput">
-                      <label htmlFor="B_PL">Język polski</label>
+                      <label htmlFor="B_PL">Język polski <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="B_PL" id="B_PL" autoFocus onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="B_FL">Język obcy nowożytny</label>
+                      <label htmlFor="B_FL">Język obcy nowożytny <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="B_FL" id="B_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="B_MAT">Matematyka</label>
+                      <label htmlFor="B_MAT">Matematyka <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="B_MAT" id="B_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
@@ -121,57 +121,57 @@ export default class InputMarks extends React.Component {
                   <div className="InputsRow">
 
                     <div className="SingleInput">
-                      <label htmlFor="E_BIO">Biologia</label>
+                      <label htmlFor="E_BIO">Biologia <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_BIO" id="E_BIO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_CH">Chemia</label>
+                      <label htmlFor="E_CH">Chemia <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_CH" id="E_CH" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_PHI">Filozofia</label>
+                      <label htmlFor="E_PHI">Filozofia <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_PHI" id="E_PHI" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_PHY">Fizyka</label>
+                      <label htmlFor="E_PHY">Fizyka <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_PHY" id="E_PHY" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_GEO">Geografia</label>
+                      <label htmlFor="E_GEO">Geografia <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_GEO" id="E_GEO" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_HIS">Historia / Historia sztuki</label>
+                      <label htmlFor="E_HIS">Historia / Historia sztuki <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_HIS" id="E_HIS" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_IT">Informatyka</label>
+                      <label htmlFor="E_IT">Informatyka <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_IT" id="E_IT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_FL">Język obcy nowożytny</label>
+                      <label htmlFor="E_FL">Język obcy nowożytny <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_FL" id="E_FL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_PL">Język polski</label>
+                      <label htmlFor="E_PL">Język polski <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_PL" id="E_PL" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_MAT">Matematyka</label>
+                      <label htmlFor="E_MAT">Matematyka <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_MAT" id="E_MAT" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
                     <div className="SingleInput">
-                      <label htmlFor="E_CIV">WOS</label>
+                      <label htmlFor="E_CIV">WOS <span className="percentLabelInfo">(%)</span></label>
                       <input type="tel" name="E_CIV" id="E_CIV" onKeyUp={this.handleChange.bind(this)} />
                     </div>
 
