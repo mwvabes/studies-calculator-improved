@@ -2572,7 +2572,7 @@
       },
       {
         "subjectName": "Zarządzanie w sporcie",
-        "matricExam": false,
+        "matricExam": true,
         "new": true,
         "cancelled": false,
         "pointsv1": {
