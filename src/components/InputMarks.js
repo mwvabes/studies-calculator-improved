@@ -6,6 +6,7 @@ import './../styles/Corners.css'
 import Header from './Header'
 import Quote from './Quote';
 import Summary from './Summary';
+import Warning from './Warning';
 
 export default class InputMarks extends React.Component {
 
@@ -60,6 +61,8 @@ export default class InputMarks extends React.Component {
         <div className="InputMarksGeneralWrapper">
 
           <Quote />
+
+          <Warning />
 
           <form autoComplete="off">
             <div className="InputMarksCardBorders">

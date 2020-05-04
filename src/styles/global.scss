@@ -110,6 +110,7 @@ strong {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
   max-width: $maxWidth;
+  width: 100%;
 }
 
 .quote {
@@ -147,6 +148,20 @@ strong {
 
 .ReportIssue p {
   font-size: 1.2rem;
+}
+
+.BigWarning {
+  padding: 20px;
+  background-color: rgba(255, 0, 55, 0.4);
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  max-width: $maxWidth;
+  margin: 40px;
+}
+
+.BigWarning h1 {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: $maxWidth + 10px) {
