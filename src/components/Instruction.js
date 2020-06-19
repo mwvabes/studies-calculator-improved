@@ -50,6 +50,7 @@ export default class Instruction extends React.Component {
             <ul>
               <li>W rekrutacjach 2015/16, 2016/17, 2017/18, obowiązywał inny sposób obliczania punktów niż w nowych rekrutacjach. W niniejszym kalkulatorze Twoje punkty liczone według starego sposobu oznaczone są jako <strong>(v1)</strong>. </li>
               <li>W rekrutacji 2018/19 wprowadzono nowy sposób liczenia punktów. Twoje punkty obliczone w ten sposób oznaczono symbolem <strong>(v2)</strong>.</li>
+              <li>W rekrutacji 2019/20 wprowadzono nowy sposób liczenia punktów. Będą one oznaczone jako <strong>(v3)</strong>, ale w chwili obecnej Kalkulator nie oblicza punktów względem tego sposobu.</li>
             </ul>
           </div>
           <div className="InstructionInfo">
