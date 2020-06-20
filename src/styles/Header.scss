@@ -35,7 +35,6 @@ $maxWidth: 1200px;
 
 .Header ul li a {
   margin: 0px 5px;
-  color: #FFF;
 }
 
 .Header ul li:hover {
@@ -61,7 +60,7 @@ $maxWidth: 1200px;
   .navToggle ~ ul {
     display: none;
     position: absolute;
-    top: 115px;
+    top: 114px;
     left: 0;
     right: 0;
     flex-direction: column;
@@ -70,11 +69,17 @@ $maxWidth: 1200px;
   
   .navToggle ~ ul li {
     background-color: #29125e;
-    padding: 10px;
     width: 100%;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    display: flex;
+    text-align: center;
+  }
+  
+  .Header ul li a {
+    flex: 1;
+    padding: 10px;
   }
   
   .navToggle:checked ~ ul {
