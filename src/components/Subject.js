@@ -181,7 +181,7 @@ export default class Subject extends React.Component {
             <div className="SubjectCollapse">
 
               <div className="SubjectRow">
-                {this.state.subject.matricExam ? <span className='matricExam'><span role="img" aria-label="Page with curl">📃</span> Obowiązuje egzamin wstępny (dodatkowe punkty)</span> : ""}
+                {this.state.subject.matricExam ? <span className='matricExam'><span role="img" aria-label="Page with curl">📃</span> Obowiązuje egzamin wstępny. Wynik z egzaminu jest wliczany dodatkowo do punktów rekrutacyjnych. Nieuwzględniany w niniejszym kalkulatorze.</span> : ""}
                 {this.state.subject.cancelled ? <span className='courseCancelled'><span role="img" aria-label="Yellow circle">🟡</span> Na ten kierunek nie jest prowadzona rekrutacja na studia I stopnia</span> : ""}
               </div>
 
@@ -229,8 +229,8 @@ export default class Subject extends React.Component {
 
                 <div className="WhatToMarkGeneralWrapper">
 
-                <WhatToMark whatToMark={this.state.subject.pointsv2} key={this.state.subject.subjectName + "v1wtm"} title="Co zdawać na maturze? (v2)" />
-                <WhatToMark whatToMark={this.state.subject.pointsv1} key={this.state.subject.subjectName + "v2wtm"} title="Stary sposób liczenia (v1)" />
+                <WhatToMark whatToMark={this.state.subject.pointsv2} key={this.state.subject.subjectName + "v1wtm"} title="Sposób liczenia v2" />
+                <WhatToMark whatToMark={this.state.subject.pointsv1} key={this.state.subject.subjectName + "v2wtm"} title="Sposób liczenia v1" />
 
                 
 
