@@ -187,7 +187,7 @@ export default class Subject extends React.Component {
 
               <div className="PointsWrapper">
                 <div className="pointsSection PointsSectionV2">
-                  <h3>Rekrutacja v2 (nowa, 2018/19 - obecnie)</h3>
+                  <h3>Rekrutacja v2 (2018/19)</h3>
                   <div className="SubjectRow">
 
                     <div className="YourPointsOverall">
@@ -202,7 +202,7 @@ export default class Subject extends React.Component {
                 </div>
 
                 <div className="pointsSection PointsSectionV1">
-                  <h3>Rekrutacja v1 (stara, do 2017/18 włącznie)</h3>
+                  <h3>Rekrutacja v1 (do 2017/18 włącznie)</h3>
                   <div className="SubjectRow">
 
                     <div className="YourPointsOverall">
