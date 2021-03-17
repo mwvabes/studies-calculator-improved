@@ -15,6 +15,7 @@ export default class Instruction extends React.Component {
               <li>v1: <strong>2015/16</strong>, <strong>2016/17</strong>, <strong>2017/18</strong> <span role="img" aria-label="Correct">✔️</span></li>
               <li>v2: <strong>2018/19</strong> <span role="img" aria-label="Correct">✔️</span></li>
               <li>v3: <strong>2019/20</strong> <span role="img" aria-label="Incorrect">❌</span></li>
+              <li>v4: <strong>2020/21</strong> <span role="img" aria-label="Incorrect">❌</span></li>
             </ul>
             <p>*W rekrutacji 2019/20 pojawi się nowy sposób liczenia punktów. Kalkulator działa poprawnie względem poprzednich rekrutacji, można więc porównać skale punktowe z poprzednich lat, ale faktyczny stan punktów w Systemie Rekrutacyjnym w roku 2020 będzie inny.</p>
           </div>
