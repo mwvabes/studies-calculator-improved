@@ -1279,7 +1279,7 @@
   {
     "shortcutName": "WEII",
     "fullName": "WYDZIAŁ ELEKTROTECHNIKI I INFORMATYKI",
-    "facultyURL": "https://wch.w.prz.edu.pl",
+    "facultyURL": "https://weii.w.prz.edu.pl",
     "subjects": [
       {
         "subjectName": "Automatyka i robotyka",
@@ -1751,7 +1751,7 @@
   {
     "shortcutName": "WMIFS",
     "fullName": "WYDZIAŁ MATEMATYKI I FIZYKI STOSOWANEJ",
-    "facultyURL": "https://wch.w.prz.edu.pl",
+    "facultyURL": "https://wmifs.w.prz.edu.pl",
     "subjects": [
       {
         "subjectName": "Inżynieria i analiza danych",
@@ -2035,7 +2035,7 @@
   {
     "shortcutName": "WMT",
     "fullName": "WYDZIAŁ MECHANICZNO-TECHNOLOGICZNY",
-    "facultyURL": "https://wch.w.prz.edu.pl",
+    "facultyURL": "https://wmt.w.prz.edu.pl",
     "subjects": [
       {
         "subjectName": "Mechanika i budowa maszyn",
@@ -2204,7 +2204,7 @@
   {
     "shortcutName": "WZ",
     "fullName": "WYDZIAŁ ZARZĄDZANIA",
-    "facultyURL": "https://wch.w.prz.edu.pl",
+    "facultyURL": "https://wz.w.prz.edu.pl",
     "subjects": [
       {
         "subjectName": "Bezpieczeństwo wewnętrzne",
